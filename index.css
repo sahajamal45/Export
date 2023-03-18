@@ -1,0 +1,132 @@
+/* ...............................................bar................................ */
+html{
+    background-color: #000000;
+}
+*{
+    /* background-color: black; */
+    color: white;
+}
+.container{
+    border: 0px solid #383838;
+    color: white;
+    /* margin-left: 10px; */
+}
+body{
+    border:none;
+    margin: 300px;
+    /* background-color: #262626; */
+}
+.bar-item{
+    display: flex;
+    gap: 30px;
+    /* margin: 10px; */
+}
+input{
+    width: 50%;
+    background-color:#333131;
+    border-radius: 15px;
+    margin: 10px;
+    border: none;
+}
+.btn1{
+    background-color: #2e2d2d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    margin: 10px;
+}
+
+/* .................................................about................................... */
+.about-flex{
+    border:1px solid #333333;
+    display: flex;
+    background-color: #262626;
+    align-items: center;
+}
+.image1{
+    height:30px;
+    width:30px;
+    /* border:1px solid red; */
+    background-color:#FECB03;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+.image2{
+    height:120px;
+    width:120px;
+    /* border:1px solid black; */
+    background-color:#FECB03;
+    text-align:end;
+    border: none;
+    margin: 20px 20px 0px 160px;
+    border-radius:62px;
+}
+.btn2{
+    height: 40px;
+    width: 140px;
+    background-color: #FECB03;
+    color: black;
+    border-radius: 20px;
+    margin: 20px 20px 20px 150px;
+    border: none;
+
+}
+.about-letter{
+    /* border: 1px solid rgb(226, 29, 29); */
+    /* padding: 10px; */
+    margin: 8px;
+
+}
+.container2{
+    border: 1px solid #262626;
+    background-color: #262626;
+
+}
+/* ...........................................Our Categories........................................ */
+.container3{
+background-color: #262626;
+/* margin-top:10px; */
+border: 1px solid #262626;
+}
+
+.box1{
+display: flex;
+/* flex-wrap: wrap; */
+/* :10px; */
+background-color: #262626;
+}
+.cell1{
+border: 1px solid #363636;
+margin: 10px;
+padding: 15px;
+background-color: #262626;
+}
+.btn3{
+    border: 1px solid #262626;
+    height: 30px;
+    width: 100px;
+    background-color:#FECB03;
+    padding: 5px;
+    border-radius: 15px;
+    margin-left: 80px;
+}
+/* ..........................................footer..................................................... */
+.footer-container{
+display: flex;
+/* border: 1px solid red; */
+background-color: #262626;
+/* padding: 10px; */
+}
+.footer-cell{
+border:none;
+margin: 10px;
+padding:15px ;
+background-color: #262626;
+}
+footer{
+    background-color: #262626;
+}
